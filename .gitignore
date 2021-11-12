@@ -1,0 +1,11 @@
+*.tex
+*.gz
+*.log
+.Rproj.user
+*/cache/
+.DS_Store
+git-and-github.key
+*/figure/
+*.html
+.Rhistory
+*/*/cache2
