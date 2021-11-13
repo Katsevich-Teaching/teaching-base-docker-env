@@ -5,7 +5,7 @@ This is the base repository for Eugene Katsevich's teaching.
 ## To use Docker container
 
 ```{bash}
-docker pull ekatsevi/teaching-base-docker-env
+docker pull ekatsevi/teaching-base
 docker-compose up
 ```
 
