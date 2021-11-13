@@ -2,12 +2,12 @@ version: "3.9"
 services: 
   stat-961:
     build: .
-    image: ekatsevi/stat-961
+    image: ekatsevi/teaching-base
     ports: 
       - "8787:8787"
     environment: 
       - ROOT=TRUE
-      - PASSWORD=chad
+      - PASSWORD=password
       - DISABLE_AUTH=true
     volumes: 
       - .:/home/rstudio

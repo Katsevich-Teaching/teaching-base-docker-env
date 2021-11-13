@@ -1,18 +1,18 @@
-# Stat 961 Docker Env
+# teaching-base-docker-env
 
-This is the repository for building Wharton STAT 961's docker environment.
+This is the base repository for Eugene Katsevich's teaching. 
 
-## To Use Docker Container
+## To use Docker container
 
 ```{bash}
-docker pull ekatsevi/stat-961
+docker pull ekatsevi/teaching-base-docker-env
 docker-compose up
 ```
 
-## To Build and public Docker Image
+## To build and publish Docker image
 
 We use `buildx` build images for Intel and M1 CPU machines.
 
 ```{bash}
-docker buildx build . --platform=linux/amd64,linux/arm64/v8 -t ekatsevi/stat-961 --push
+docker buildx build . --platform=linux/amd64,linux/arm64/v8 -t ekatsevi/teaching-base --push
 ```
